@@ -33,6 +33,14 @@ public class math {
 
         //sqrt 获取平方根
         System.out.println(Math.sqrt(9));
+
+        //获取1~100的随机数
+        for (int i = 0; i < 10; i++) {
+            System.out.println(Math.floor(Math.random() * 100 + 1));
+        }
+        
+
+        
     }
 
 }
