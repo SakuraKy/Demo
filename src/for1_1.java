@@ -15,7 +15,7 @@ public class for1_1 {
         for (int i = 1; i <= 5; i++) {
             System.out.println("第" + i + "次执行短线重连的业务逻辑");
             System.out.println("断线重连成功");
-
+            System.out.println("yes");
         }
     }
 }
