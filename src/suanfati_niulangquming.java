@@ -2,11 +2,13 @@ import java.util.Scanner;
 
 public class suanfati_niulangquming {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner Scan = new Scanner(System.in);
+        @SuppressWarnings("unused")
         int n = Scan.nextInt();
         String s = Scan.next();
         StringBuilder sb = new StringBuilder();
-        for (int i = 0;i < s.length();i++){
+        for (int i = 0; i < s.length(); i++) {
             int m = Scan.nextInt();
             sb.append(s.charAt(m - 1));
         }

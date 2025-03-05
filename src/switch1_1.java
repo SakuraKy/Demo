@@ -2,10 +2,11 @@ import java.util.Scanner;
 
 public class switch1_1 {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         System.out.println("请输入周几：");
         int week = sc.nextInt();
-        switch (week){
+        switch (week) {
             case 1:
                 System.out.println("跑步");
                 break;
